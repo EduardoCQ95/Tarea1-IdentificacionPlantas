@@ -1,0 +1,26 @@
+/* PlantHistory Component */
+.plant-history h2 {
+  color: #8b6f47;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.history-content {
+  background: white;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.history-content p {
+  color: #555;
+  font-size: 0.95rem;
+  margin: 0;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .history-content p {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+}

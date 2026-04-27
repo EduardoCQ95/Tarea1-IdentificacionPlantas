@@ -1,0 +1,98 @@
+/* PlantCare Component */
+.plant-care h2 {
+  color: #5a9b6d;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.care-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.care-item {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  border-left: 4px solid #5a9b6d;
+  transition: all 0.3s ease;
+}
+
+.care-item:hover {
+  background: #f0f8f4;
+  box-shadow: 0 2px 6px rgba(90, 155, 109, 0.1);
+}
+
+.care-icon {
+  font-size: 1.5rem;
+  min-width: 30px;
+  text-align: center;
+}
+
+.care-content {
+  flex: 1;
+}
+
+.care-content strong {
+  color: #5a9b6d;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+}
+
+.care-content p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Advice Box */
+.advice-box {
+  background: linear-gradient(135deg, #fff8f0, #fffaf4);
+  border-left: 4px solid #d4a574;
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.advice-icon {
+  font-size: 1.5rem;
+  min-width: 30px;
+  text-align: center;
+}
+
+.advice-box p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.advice-box strong {
+  color: #8b6f47;
+}
+
+@media (max-width: 768px) {
+  .care-item {
+    gap: 12px;
+    padding: 10px;
+  }
+
+  .care-icon,
+  .advice-icon {
+    font-size: 1.3rem;
+  }
+
+  .care-content p,
+  .advice-box p {
+    font-size: 0.85rem;
+  }
+}
